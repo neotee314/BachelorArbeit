@@ -1,0 +1,7 @@
+
+tensorflow==2.9.1
+pillow
+pyniryo2
+pyniryo
+mediapipe
+ultralytics

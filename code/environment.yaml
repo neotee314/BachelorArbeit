@@ -1,0 +1,14 @@
+name: niryo_ned_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pillow
+  - opencv
+  - pip:
+      - deepface
+      - tensorflow==2.9.1
+      - pyniryo2
+      - pyniryo
+      - mediapipe
