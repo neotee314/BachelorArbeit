@@ -1,4 +1,4 @@
-Face Recognition 
+Face Recognition App
 ==========================================
 
 Dieses Projekt implementiert ein Gesichtserkennungs- und Robotersteuerungssystem.
@@ -51,18 +51,7 @@ Projekt Starten
 ================
 Nach der Installation der Pakete können Sie das Projekt starten, indem Sie das Hauptskript ausführen:
 
-1-Dieses Skript führt die Gesichtserkennung ohne Bewegung der Roboterarme durch.
-
-     python real_time_niryo_standard
-   
-
-2- Mit diesem Skript können Sie Start- und End joint für den Roboter angeben. Der Roboter bewegt sich von der Start- zur Endposition und erkennt dabei Gesichter.
-     
-     python real_time_mit_bewegung.py
-
-3- Dies ist eine GUI, die eine bessere Kontrolle über die Gesichtserkennung und die Roboterbewegung ermöglicht.
-
-      python robot_gui.py
+python robot_gui.py
 
 
 
