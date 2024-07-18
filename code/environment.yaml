@@ -7,7 +7,7 @@ dependencies:
   - pip
   - pillow
   - opencv
-  - cmake conda
+  - cmake
   - numpy<2.0.0
   - pip:
       - deepface
