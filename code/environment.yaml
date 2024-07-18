@@ -1,5 +1,6 @@
 name: niryo_ned_env
 channels:
+  - defaults
   - conda-forge
 dependencies:
   - python=3.9
@@ -11,4 +12,5 @@ dependencies:
       - tensorflow==2.9.1
       - pyniryo2
       - pyniryo
-      - mediapipe
+      - ultralytics
+  - numpy<2.0.0
