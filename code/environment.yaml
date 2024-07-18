@@ -1,4 +1,4 @@
-name: niryo_ned_env2
+name: niryo_ned_env
 channels:
   - defaults
   - conda-forge
