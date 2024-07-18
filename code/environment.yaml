@@ -1,18 +1,18 @@
-name: niryo_ned_env
+name: niryo_ned
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.9
   - pip
+  - tensorflow==2.9.1
   - pillow
   - opencv
-  - cmake
+  - cmake  
   - numpy<2.0.0
   - pip:
-      - deepface
-      - tensorflow==2.9.1
-      - pyniryo2
-      - pyniryo
-      - ultralytics
-      - dlib
+    - deepface
+    - pyniryo2
+    - pyniryo
+    - ultralytics
+    - dlib
